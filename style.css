@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+#theBigDiv{
+    border: solid 1px rgb(167, 161, 161);
+   width: fit-content;
+   padding: 30px;
+}
+
+#nameOfProdact{
+    font-size: 30px;
+    color: darkturquoise;
+  
+}
+
+#img{
+
+    width: auto;
+    max-height: 150px;
+}
+
+
+
+
+#divHavePriceWithBtn{
+    border-top: solid 1px rgb(156, 149, 149);
+    display: flex;
+    flex-direction: column;
+}
+
+#price{
+    margin-block: 10px;
+    font-size: 25px;
+}
+
+#btn{
+    width: fit-content;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 15px;
+}
